@@ -1,0 +1,18 @@
+{
+  "name": "@fitness-coach/server",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "dependencies": {
+    "@fastify/cors": "^10.0.1",
+    "@fitness-coach/ai": "0.1.0",
+    "@fitness-coach/db": "0.1.0",
+    "@fitness-coach/shared": "0.1.0",
+    "fastify": "^5.2.1"
+  }
+}

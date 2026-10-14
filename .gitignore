@@ -1,0 +1,33 @@
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+.vite/
+data/
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+images/
+backups/
+.env
+.env.*
+!.env.example
+runtime-config.*
+*.secret
+*.secret.*
+*.key
+*.pem
+
+# Local development state and sensitive exports
+.DS_Store
+.superpowers/
+test-results/
+*.har
+*.log
+
+# Internal planning/review materials; keep out of the public repository
+docs/superpowers/
+docs/phase2-review-report.md
+docs/phase2-repair-handoff-prompt.md
